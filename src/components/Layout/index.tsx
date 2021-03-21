@@ -1,4 +1,5 @@
 import React from "react";
+import DesktopHeader from "../DesktopHeader";
 import LeftColumn from "../LeftColumn";
 import MiddleColumn from "../MiddleColumn";
 import MobileHeader from "../MobileHeader";
@@ -9,6 +10,7 @@ const Layout: React.FC = () => {
   return (
     <Container>
       <MobileHeader />
+      <DesktopHeader />
       <main>
         <LeftColumn />
         <MiddleColumn />
