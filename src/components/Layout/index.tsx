@@ -15,7 +15,7 @@ const Layout: React.FC = () => {
   useEffect(() => {
     //! Esse setTimeout faz com que isLoading seja 'false' depois de 1 segundo
     setTimeout(() => {
-      // setIsLoading(false);
+      setIsLoading(false);
     }, 1000);
   }, []);
 
